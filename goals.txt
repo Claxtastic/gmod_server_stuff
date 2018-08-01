@@ -1,41 +1,41 @@
 WORKSHOP STUFF:::::::::::::::::::::
 
-AK: Great dmg, slower FR, decently accurate, extremely high recoil		?	
+AK: Great dmg, slower FR, decently accurate, extremely high recoil		COMPLETE
 
-AUG: Average dmg, average FR, very accurate, medium recoil			?			
+AUG: Average dmg, average FR, very accurate, medium recoil			COMPLETE
 
-SG: Good dmg, slower FR, decently accurate, higher recoil			?
+SG: Good dmg, slower FR, decently accurate, higher recoil			COMPLETE
 
-FAMAS: Kinda shitty dmg, very fast FR, decently accurate, decent recoil		?
+FAMAS: Kinda shitty dmg, very fast FR, decently accurate, decent recoil		COMPLETE
 
-AUTO: Huge dmg, slow FR, very accurate, extremely high recoil			?
+AUTO: Huge dmg, slow FR, very accurate, extremely high recoil			COMPLETE
 
-GALIL: Pretty good dmg, decent fr, average-good accuracy, decent recoil		?
+GALIL: Pretty good dmg, decent fr, average-good accuracy, decent recoil		COMPLETE
 
-MP5: Decent dmg, decent fr, accurate, decent recoil				?
+MP5: Decent dmg, decent fr, accurate, decent recoil				COMPLETE
 
-P90: Decent dmg, fast FR, not too accurate, decent recoil			?
+P90: Decent dmg, fast FR, not too accurate, decent recoil			COMPLETE
 
-P228: Good dmg, slower fr, pretty accurate, decent recoil			?
+P228: Good dmg, slower fr, pretty accurate, decent recoil			COMPLETE
 
-USP: Okay dmg, decent fr, accurate, not much recoil				?
+USP: Okay dmg, decent fr, accurate, not much recoil				COMPLETE
 
-Pump: Great dmg, slow fr, tight spread, pretty big recoil			?
+Pump: Great dmg, slow fr, tight spread, pretty big recoil			COMPLETE
 
-M4A1: Okay dmg, fast fr, tight spread, little recoil				?
+M4A1: Okay dmg, fast fr, tight spread, little recoil				COMPLETE
 
-MP7: Decent dmg, fast FR, tight spread, decent recoil				?
+MP7: Decent dmg, fast FR, tight spread, decent recoil				COMPLETE
 
 VANILLA WEAPONS::::::::::::::::::::
 
-Rifle: Big damage, slow FR, dead accurate, decent recoil 			?
+Rifle: Big damage, slow FR, dead accurate, decent recoil 			COMPLETE
 
-Shotgun: Decent Damage, faster FR, huge spread, decent recoil 			?
+Shotgun: Decent Damage, faster FR, huge spread, decent recoil 			COMPLETE
 
-M16: Good dmg, average FR, decent accuracy, decent recoil			?		
+M16: Good dmg, average FR, decent accuracy, decent recoil			COMPLETE		
 
-MAC10: Kinda shitty dmg, very fast fr, very accurate, average recoil		?
+MAC10: Kinda shitty dmg, very fast fr, very accurate, average recoil	COMPLETE
 
-HUGE: Below avg dmg, very fast FR, decently accurate, big recoil		?
+HUGE: Below avg dmg, very fast FR, decently accurate, big recoil	COMPLETE
 
-GLOCK: Pretty bad dmg, fast fr, accurate, very little recoil 			? 
+GLOCK: Pretty bad dmg, fast fr, accurate, very little recoil 			COMPLETE 
