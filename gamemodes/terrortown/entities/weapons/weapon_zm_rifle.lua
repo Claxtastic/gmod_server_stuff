@@ -17,7 +17,7 @@ SWEP.WeaponID = AMMO_RIFLE
 
 SWEP.Primary.Delay          = 1.5
 SWEP.Primary.Recoil         = 6.7
-SWEP.Primary.Automatic = true
+SWEP.Primary.Automatic = false
 SWEP.Primary.Ammo = "357"
 SWEP.Primary.Damage = 55
 SWEP.Primary.Cone = 0.0020

@@ -18,7 +18,7 @@ SWEP.Base = "weapon_tttbase"
 SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_MAC10
 
-SWEP.Primary.Damage      = 8
+SWEP.Primary.Damage      = 10
 SWEP.Primary.Delay       = 0.06
 SWEP.Primary.Cone        = 0.06
 SWEP.Primary.ClipSize    = 30
@@ -26,7 +26,7 @@ SWEP.Primary.ClipMax     = 60
 SWEP.Primary.DefaultClip = 30
 SWEP.Primary.Automatic   = true
 SWEP.Primary.Ammo        = "smg1"
-SWEP.Primary.Recoil      = 0.7
+SWEP.Primary.Recoil      = 0.6
 SWEP.Primary.Sound       = Sound( "Weapon_mac10.Single" )
 
 SWEP.AutoSpawnable = true
