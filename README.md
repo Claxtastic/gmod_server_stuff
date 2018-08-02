@@ -1,7 +1,7 @@
 What is this?
 =============
 
-All files found here are simply the Lua scripts that define characteristics of weapons in the game [Garry's Mod](https://gmod.facepunch.com/) for [Trouble in Terrorist Town](http://ttt.badking.net/) gamemode.
+All files found here are simply the Lua scripts that define characteristics of weapons in the game [Garry's Mod](https://gmod.facepunch.com/) for the [Trouble in Terrorist Town](http://ttt.badking.net/) gamemode.
 
 I made these changes just to try and balance some of the weapons for use on my private GMOD server.
 
