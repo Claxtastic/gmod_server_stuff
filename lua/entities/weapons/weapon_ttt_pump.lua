@@ -24,7 +24,6 @@ SWEP.Primary.ClipMax = 24
 SWEP.Primary.DefaultClip = 8
 SWEP.Primary.Sound = Sound( "Weapon_M3.Single" )
 SWEP.Primary.NumShots = 8
-SWEP.AutoSpawnable = true
 SWEP.HeadshotMultiplier = 1.1
 
 -- Model properties

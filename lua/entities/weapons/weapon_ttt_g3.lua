@@ -25,7 +25,6 @@ SWEP.Primary.DefaultClip = 20
 SWEP.Primary.Sound = Sound( "Weapon_G3SG1.Single" )
 SWEP.Secondary.Sound = Sound( "Default.Zoom" )
 SWEP.HeadshotMultiplier = 4
-SWEP.AutoSpawnable = true
 
 -- Model properties
 SWEP.UseHands = true

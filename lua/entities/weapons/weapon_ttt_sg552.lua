@@ -24,7 +24,6 @@ SWEP.Primary.ClipMax = 60
 SWEP.Primary.DefaultClip = 30
 SWEP.Primary.Sound = Sound( "Weapon_SG552.Single" )
 SWEP.Secondary.Sound = Sound( "Default.Zoom" )
-SWEP.AutoSpawnable = true
 SWEP.HeadshotMultiplier = 1.35
 
 -- Model properties

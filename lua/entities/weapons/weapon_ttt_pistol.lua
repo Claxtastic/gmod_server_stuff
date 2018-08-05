@@ -23,7 +23,6 @@ SWEP.Primary.ClipSize = 20
 SWEP.Primary.ClipMax = 60
 SWEP.Primary.DefaultClip = 20
 SWEP.Primary.Sound = Sound( "Weapon_Pistol.Single" )
-SWEP.AutoSpawnable = true
 SWEP.HeadshotMultiplier = 1.4
 
 -- Model properties

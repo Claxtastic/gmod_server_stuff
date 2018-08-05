@@ -23,7 +23,6 @@ SWEP.Primary.ClipSize = 30
 SWEP.Primary.ClipMax = 60
 SWEP.Primary.DefaultClip = 30
 SWEP.Primary.Sound = Sound( "Weapon_Galil.Single" )
-SWEP.AutoSpawnable = true
 SWEP.HeadshotMultiplier = 1.3
 
 -- Model properties
