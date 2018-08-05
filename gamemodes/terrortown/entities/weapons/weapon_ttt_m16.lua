@@ -28,7 +28,7 @@ SWEP.Primary.DefaultClip = 30
 SWEP.AutoSpawnable      = true
 SWEP.AmmoEnt = "item_ammo_pistol_ttt"
 
-SWEP.HeadshotMultiplier = 1.5
+SWEP.HeadshotMultiplier = 2
 
 SWEP.UseHands			= true
 SWEP.ViewModelFlip		= false
@@ -38,9 +38,8 @@ SWEP.WorldModel			= "models/weapons/w_rif_m4a1.mdl"
 
 SWEP.Primary.Sound = Sound( "Weapon_M4A1.Single" )
 
-SWEP.IronSightsPos = Vector(-7.58, -9.2, 0.55)
-SWEP.IronSightsAng = Vector(2.599, -1.3, -3.6)
-
+SWEP.IronSightsPos = Vector(-8.45, 20, .2)
+SWEP.IronSightsAng = Vector(2.8, -1.3, -3.6)
 
 function SWEP:SetZoom(state)
    if CLIENT then return end

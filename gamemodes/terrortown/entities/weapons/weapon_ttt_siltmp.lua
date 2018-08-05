@@ -15,14 +15,15 @@ SWEP.HoldType = "ar2"
 
 SWEP.Primary.Ammo = "Pistol"
 SWEP.Primary.Delay = 0.07
-SWEP.Primary.Recoil = 0.9
+SWEP.Primary.Recoil = 1
 SWEP.Primary.Cone = 0.017
-SWEP.Primary.Damage = 16
+SWEP.Primary.Damage = 17
 SWEP.Primary.Automatic = true
 SWEP.Primary.ClipSize = 30
 SWEP.Primary.ClipMax = 60
 SWEP.Primary.DefaultClip = 30
 SWEP.Primary.Sound = Sound( "Weapon_TMP.Single" )
+SWEP.HeadshotMultiplier = 1.1
 
 -- Model properties
 SWEP.UseHands = true

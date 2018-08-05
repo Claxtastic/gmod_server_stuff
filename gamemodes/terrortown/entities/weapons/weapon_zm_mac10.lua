@@ -28,6 +28,7 @@ SWEP.Primary.Automatic   = true
 SWEP.Primary.Ammo        = "smg1"
 SWEP.Primary.Recoil      = 0.6
 SWEP.Primary.Sound       = Sound( "Weapon_mac10.Single" )
+SWEP.HeadShotMultiplier = 1.2
 
 SWEP.AutoSpawnable = true
 

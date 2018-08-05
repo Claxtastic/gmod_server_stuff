@@ -26,6 +26,7 @@ SWEP.Primary.Automatic = true
 SWEP.Primary.DefaultClip = 20
 SWEP.Primary.ClipMax = 80
 SWEP.Primary.Ammo = "Pistol"
+SWEP.HeadshotMultiplier = 1.1
 
 SWEP.Kind = WEAPON_EQUIP
 SWEP.CanBuy = {ROLE_TRAITOR} -- only traitors can buy
