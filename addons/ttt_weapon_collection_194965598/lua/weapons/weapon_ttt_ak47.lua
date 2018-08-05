@@ -24,6 +24,7 @@ SWEP.Primary.ClipMax = 60
 SWEP.Primary.DefaultClip = 30
 SWEP.Primary.Sound = Sound( "Weapon_AK47.Single" )
 SWEP.AutoSpawnable = true
+SWEP.HeadshotMultiplier = 1.5
 
 -- Model properties
 SWEP.UseHands = true
