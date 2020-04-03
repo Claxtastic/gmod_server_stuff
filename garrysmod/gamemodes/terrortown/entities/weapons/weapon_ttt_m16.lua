@@ -38,16 +38,16 @@ SWEP.WorldModel			= "models/weapons/w_rif_m4a1.mdl"
 
 SWEP.Primary.Sound = Sound( "Weapon_M4A1.Single" )
 
-SWEP.IronSightsPos = Vector(-8.45, 20, .2)
+SWEP.IronSightsPos = Vector(-8.45, 27, .2)
 SWEP.IronSightsAng = Vector(2.8, -1.3, -3.6)
 
 function SWEP:SetZoom(state)
    if CLIENT then return end
-   if not (IsValid(self.Owner) and self.Owner:IsPlayer()) then return end
+   if not (IsValid(self:GetOwner()) and self:GetOwner():IsPlayer()) then return end
    if state then
-      self.Owner:SetFOV(35, 0.5)
+      self:GetOwner():SetFOV(50, .2)
    else
-      self.Owner:SetFOV(0, 0.2)
+      self:GetOwner():SetFOV(0, 0.2)
    end
 end
 
@@ -75,7 +75,7 @@ end
 
 function SWEP:Reload()
     if (self:Clip1() == self.Primary.ClipSize or
-        self.Owner:GetAmmoCount(self.Primary.Ammo) <= 0) then
+        self:GetOwner():GetAmmoCount(self.Primary.Ammo) <= 0) then
        return
     end
     self:DefaultReload(ACT_VM_RELOAD)
