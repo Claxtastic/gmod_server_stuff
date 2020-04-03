@@ -25,7 +25,7 @@ def merge(destination):
 	print("\nMerging '/lua/weapons/' ...\n")
 	for file in os.listdir("garrysmod/lua/weapons"):
 		lua_src = os.path.join("garrysmod", "lua", "weapons", file)
-		lua_dest = os.path.join(destination, "lua", "weapons")
+		lua_dest = os.path.join(destination, "garrysmod", "lua", "weapons")
 		print("\tCopying:\t %s" % file)
 		shutil.copy2(lua_src, lua_dest)
 
