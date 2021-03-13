@@ -7,6 +7,15 @@ def merge(destination):
 	print("\tCopying:\t start-server.bat")
 	shutil.copy2("start-server.bat", destination)
 
+	print("Moving ULX users file ...")
+	ulx_users_src = os.path.join("garrysmod", "data", "ulib", "users.txt")
+	ulx_users_dest = os.path.join(destination, "garrysmod", "data", "ulib")
+	
+	if not os.path.exists(ulx_users_dest):
+		os.makedirs(ulx_users_dest) 
+	
+	shutil.copy2(ulx_users_src, ulx_users_dest)
+
 	print("\nMerging '/cfg/' ...\n")
 	for file in os.listdir("garrysmod/cfg"):
 		cfg_src = os.path.join("garrysmod", "cfg", file)
