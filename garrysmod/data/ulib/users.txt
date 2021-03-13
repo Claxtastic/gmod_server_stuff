@@ -1,25 +1,3 @@
-"STEAM_0:0:35562688"	
-{
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"name"	"claxtastic"
-	"group"	"superadmin"
-}
-"STEAM_0:0:44349989"	
-{
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"name"	Nightman
-	"group"	"superadmin"
-}
 "STEAM_0:0:48262460"	
 {
 	"deny"	
@@ -28,63 +6,17 @@
 	"allow"	
 	{
 	}
-	"name"	Schweddy
 	"group"	"superadmin"
 }
-
-"STEAM_0:1:48466549"	
+"STEAM_0:0:35562688"	
 {
+	"name"	"claxtastic"
 	"deny"	
 	{
 	}
 	"allow"	
 	{
 	}
-	"name"	Marcus
-	"group"	"superadmin"
-}
-"STEAM_0:0:36258386"	
-{
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"name"	John
-	"group"	"superadmin"
-}
-"STEAM_0:0:65852328"	
-{
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"name"	artsy_insomniac
-	"group"	"superadmin"
-}
-"STEAM_0:1:33778971"	
-{
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"name"	RT ReggieRTA
-	"group"	"superadmin"
-}
-"STEAM_0:1:48182101"	
-{
-	"deny"	
-	{
-	}
-	"allow"	
-	{
-	}
-	"name"	WEFLEY
 	"group"	"superadmin"
 }
 "STEAM_0:0:59384583"	
@@ -95,8 +27,65 @@
 	"allow"	
 	{
 	}
-	"name"	A Degenerate
 	"group"	"superadmin"
 }
-
-
+"STEAM_0:1:33778971"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:0:36258386"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:1:48182101"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:1:48466549"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:0:44349989"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:0:65852328"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
