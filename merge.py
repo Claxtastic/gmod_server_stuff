@@ -10,11 +10,18 @@ def merge(destination):
 	print("Moving ULX users file ...")
 	ulx_users_src = os.path.join("garrysmod", "data", "ulib", "users.txt")
 	ulx_users_dest = os.path.join(destination, "garrysmod", "data", "ulib")
-	
-	if not os.path.exists(ulx_users_dest):
-		os.makedirs(ulx_users_dest) 
+
+	createIfNotExists(ulx_users_dest)
 	
 	shutil.copy2(ulx_users_src, ulx_users_dest)
+
+	print("Moving ULX motd.txt ...")
+	ulx_motd_src = os.path.join("garrysmod", "data", "ulx", "motd.txt")
+	ulx_motd_dest = os.path.join(destination, "garrysmod", "data", "ulib")
+
+	createIfNotExists(ulx_motd_dest)
+
+	shutil.copy2(ulx_motd_src, ulx_motd_dest)
 
 	print("\nMerging '/cfg/' ...\n")
 	for file in os.listdir("garrysmod/cfg"):
@@ -40,12 +47,9 @@ def merge(destination):
 
 	print("\nMerging '/sound/endroundmusic/' ...\n")
 	# these dirs are not created until first server start, so let's create them now
-	if not os.path.exists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "innocent")):
-		os.makedirs(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "innocent"))
-	if not os.path.exists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "traitor")):
-		os.makedirs(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "traitor"))
-	if not os.path.exists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "timeout")):
-		os.makedirs(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "timeout"))
+	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "innocent")):
+	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "traitor")):
+	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "timeout")):
 
 	for file in os.listdir("garrysmod/sound/endroundmusic/innocent"):
 		# innocent music
@@ -60,6 +64,10 @@ def merge(destination):
 		traitor_dest = os.path.join(destination, "garrysmod", "sound", "endroundmusic", "traitor")
 		print("\tCopying:\t %s" % file)
 		shutil.copy2(traitor_src, traitor_dest)
+
+def createIfNotExists(path):
+	if not os.path.exists(path):
+		os.makedirs(path) 
 
 
 if __name__ == "__main__":
