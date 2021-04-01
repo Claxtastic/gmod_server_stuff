@@ -17,7 +17,7 @@ def merge(destination):
 
 	print("Moving ULX motd.txt ...")
 	ulx_motd_src = os.path.join("garrysmod", "data", "ulx", "motd.txt")
-	ulx_motd_dest = os.path.join(destination, "garrysmod", "data", "ulib")
+	ulx_motd_dest = os.path.join(destination, "garrysmod", "data", "ulx")
 
 	createIfNotExists(ulx_motd_dest)
 
