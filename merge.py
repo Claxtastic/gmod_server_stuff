@@ -47,9 +47,9 @@ def merge(destination):
 
 	print("\nMerging '/sound/endroundmusic/' ...\n")
 	# these dirs are not created until first server start, so let's create them now
-	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "innocent")):
-	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "traitor")):
-	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "timeout")):
+	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "innocent"))
+	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "traitor"))
+	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "timeout"))
 
 	for file in os.listdir("garrysmod/sound/endroundmusic/innocent"):
 		# innocent music
