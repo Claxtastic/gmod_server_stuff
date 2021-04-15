@@ -19,7 +19,7 @@
 			"Once the UI is open, you'll see the CMDS tab:"
 			"One useful thing in cmds is mapvote, another is under the TTT Admin dropdown, you can force or unforce a player to spectate with fspec."
 			"The other useful tab is the TTT tab:"
-			"The most useful section here is "Gameplay", where you can set the percentage of traitor players with ttt_traitor_pct, and the same for detectives. Expand "Other gameplay settings" and you can change the minimum players needed for the round to start with ttt_minimum_players"
+			"The most useful section here is \"Gameplay\", where you can set the percentage of traitor players with ttt_traitor_pct, and the same for detectives. Expand \"Other gameplay settings\" and you can change the minimum players needed for the round to start with ttt_minimum_players"
 			"Lastly, the Maps tab:"
 			"Here you can simply force the server to another map. The list shows all available maps on the server, and a Gamemode dropdown box to select the gamemode you want for the chosen map."
 			"COMMANDS:"
