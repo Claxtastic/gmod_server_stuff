@@ -45,6 +45,13 @@ def merge(destination):
 		print("\tCopying:\t %s" % file)
 		shutil.copy2(lua_src, lua_dest)
 
+	print("\nMerging '/lua/autorun/' ...\n")
+	for file in os.listdir("garrysmod/lua/autorun/server"):
+		auto_src = os.path.join("garrysmod", "lua", "autorun", "server", file)
+		auto_dest = os.path.join(desination, "garrysmod", "lua", "autorun", "server", file)
+		print("\tCopying:\t %s" % file)
+		shutil.copy2(lua_src, lua_dest)
+
 	print("\nMerging '/sound/endroundmusic/' ...\n")
 	# these dirs are not created until first server start, so let's create them now
 	createIfNotExists(os.path.join(destination, "garrysmod", "sound", "endroundmusic", "innocent"))
